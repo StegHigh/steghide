@@ -1,10 +1,10 @@
+# Call for Maintainers/Contributors
+
 Hi everyone,
 
-Thank you all for your interest in Steghide. I cloned this repo about 10 years ago when I was doing [digital image security research](https://patft.uspto.gov/netacgi/nph-Parser?patentnumber=9137415).
+Thank you all for your interest in Steghide. Steghihde was created by Stefan Herzl, under the GPL in the early 2000s.
 
-Steghihde was created by Stefan Herzl, under the GPL in the early 2000s.
-
-In the past few years, interest in steganography in general and Steghide in particular has grown immensely.
+I cloned this repo about 10 years ago when I was doing [digital image security research](https://patft.uspto.gov/netacgi/nph-Parser?patentnumber=9137415). In the past few years, interest in steganography in general and Steghide in particular has grown immensely.
 
 Let's try to get this more active and add some maintainers to this repo.
 
