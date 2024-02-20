@@ -1,4 +1,23 @@
-Introduction :
+Hi everyone,
+
+Thank you all for your interest in Steghide. I cloned this repo about 10 years ago when I was doing [digital image security research](https://patft.uspto.gov/netacgi/nph-Parser?patentnumber=9137415).
+
+Steghihde was created by Stefan Herzl, under the GPL in the early 2000s.
+
+In the past few years, interest in steganography in general and Steghide in particular has grown immensely.
+
+Let's try to get this more active and add some maintainers to this repo.
+
+[Discussions over here](https://github.com/orgs/StegHigh/discussions).
+
+Thanks,
+
+
+@StefanoDevuono
+
+
+
+## Introduction :
 ==============
 
 Steghide is a steganography program that is able to hide data in various kinds
@@ -14,7 +33,7 @@ Features:
 *) embedding of a checksum to verify the integrity of the extracted data
 *) support for JPEG, BMP, WAV and AU files
 
-Steganography :
+## Steganography :
 ===============
 
 Steganography literally means covered writing. Its goal is to hide the fact
@@ -23,7 +42,7 @@ large) cover file and embedding the (rather short) secret message into this
 file. The result is an innocuous looking file (the stego file) that contains
 the secret message.
 
-Compilation and Installation :
+## Compilation and Installation :
 ==============================
 
 Dependencies :
@@ -88,7 +107,7 @@ Steghide can be compiled with gcc in the cygwin environment
 (http://www.cygwin.com/) which is a unix emulation layer for Windows using the
 procedure mentioned above for the Linux/Unix compilation.
 
-Quick-Start :
+## Quick-Start :
 =============
 
 Here are some examples of how steghide can be used. Take a look at these to get
@@ -135,41 +154,15 @@ asked if steghide should try to get information about the embedded data. If you 
 yes you have to supply a passphrase. Steghide will then try to extract the embedded data
 with that passphrase and - if it succeeds - print some information about it.
 
-Contact :
+## Contact :
 =========
 
-Website :
+### GitHub :
 ---------
 You can get the latest version of steghide as well as some additional
-information and documentation from the steghide website at:
-http://steghide.sourceforge.net/
+information and documentation here on [GitHub](https://github.com/orgs/StegHigh/steghide)
 
-Mailing Lists :
+### Discussions :
 ---------------
 If you have found a bug or if you have questions, comments, suggestions, etc.
-please send a mail to the development mailing list:
-steghide-devel@lists.sourceforge.net
-To receive mails sent to this list, subscribe to it at:
-http://lists.sourceforge.net/lists/listinfo/steghide-devel
-
-If you want to be informed, when a new version of steghide is released please
-subscribe to the steghide announcement mailing list at:
-http://lists.sourceforge.net/lists/listinfo/steghide-announce
-
-Anonymous CVS access :
-----------------------
-
-You can access the most recent development source code via anonymous cvs. Just
-type the following lines:
-
-$ cvs -d:pserver:anonymous@cvs.steghide.sourceforge.net:/cvsroot/steghide login
-CVS password:  [ Hit RETURN here ]
-
-$ cvs -z3 -d:pserver:anonymous@cvs.steghide.sourceforge.net:/cvsroot/steghide co steghide
-
-You can also browse the cvs repository on the web:
-http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/steghide/
-
-Author :
---------
-You can contact me (Stefan Hetzl) via e-mail: shetzl@chello.at
+please join our [discussions on GitHub](https://github.com/orgs/StegHigh/discussions).
